@@ -1,0 +1,111 @@
+.column-card {
+  display: flex;
+  gap: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.card {
+  background-color: #fefeff;
+  border: 1px solid #f2f2f4;
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 14px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.date {
+  margin-bottom: 13px;
+}
+
+.date .year {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin: 0 0 5px 0;
+  color: #5d6372;
+  font-weight: 400;
+}
+
+.date .month {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  color: #5d6372;
+  font-weight: 600;
+}
+
+.subcard p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  color: #2f3136;
+  line-height: 20px;
+}
+
+.subcard {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.no-task {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b7bdc9;
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.indicator span {
+  font-size: 12px;
+  color: #5d6372;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.indicator span img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.create-task span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #2f3136;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.create-task img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}

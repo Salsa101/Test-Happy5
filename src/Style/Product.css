@@ -1,0 +1,17 @@
+.container-product {
+  display: flex;
+  flex-direction: column;  
+  min-height: 100vh;           
+  background-color: #FFFFFF;
+  min-width: 100vh;
+  padding-left: 50px;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+
